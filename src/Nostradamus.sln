@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nostradamus.Parsers.Roslyn"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nostradamus.Parsers.Roslyn.Tests", "..\tests\Nostradamus.Parsers.Roslyn.Tests\Nostradamus.Parsers.Roslyn.Tests.csproj", "{B3858BBA-4C07-45F0-AD1C-D1EFE73153C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{C2C281F8-E2AB-4A45-A652-F6633C483F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nostradamus.TokensCounter.ClaudeApprox", "Nostradamus.TokensCounter.ClaudeApprox\Nostradamus.TokensCounter.ClaudeApprox.csproj", "{76F7B01A-1F6B-46C4-9092-43D6BDF27144}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,12 @@ Global
 		{B3858BBA-4C07-45F0-AD1C-D1EFE73153C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3858BBA-4C07-45F0-AD1C-D1EFE73153C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3858BBA-4C07-45F0-AD1C-D1EFE73153C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F7B01A-1F6B-46C4-9092-43D6BDF27144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F7B01A-1F6B-46C4-9092-43D6BDF27144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F7B01A-1F6B-46C4-9092-43D6BDF27144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F7B01A-1F6B-46C4-9092-43D6BDF27144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76F7B01A-1F6B-46C4-9092-43D6BDF27144} = {C2C281F8-E2AB-4A45-A652-F6633C483F96}
 	EndGlobalSection
 EndGlobal
